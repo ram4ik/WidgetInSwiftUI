@@ -16,6 +16,10 @@
 		9520EA1E251B415600420BD0 /* SImpleWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520EA1D251B415600420BD0 /* SImpleWidget.swift */; };
 		9520EA20251B415800420BD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9520EA1F251B415800420BD0 /* Assets.xcassets */; };
 		9520EA24251B415800420BD0 /* SImpleWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9520EA16251B415500420BD0 /* SImpleWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9520EA30251B441E00420BD0 /* SimpleWidgetEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520EA2F251B441E00420BD0 /* SimpleWidgetEntry.swift */; };
+		9520EA34251B446B00420BD0 /* SimpleWidgetTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520EA33251B446B00420BD0 /* SimpleWidgetTimeline.swift */; };
+		9520EA3A251B488000420BD0 /* PlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520EA39251B488000420BD0 /* PlaceholderView.swift */; };
+		9520EA3E251B48F300420BD0 /* SimpleWidgetEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9520EA3D251B48F200420BD0 /* SimpleWidgetEntryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,10 @@
 		9520EA1D251B415600420BD0 /* SImpleWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SImpleWidget.swift; sourceTree = "<group>"; };
 		9520EA1F251B415800420BD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9520EA21251B415800420BD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9520EA2F251B441E00420BD0 /* SimpleWidgetEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWidgetEntry.swift; sourceTree = "<group>"; };
+		9520EA33251B446B00420BD0 /* SimpleWidgetTimeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWidgetTimeline.swift; sourceTree = "<group>"; };
+		9520EA39251B488000420BD0 /* PlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderView.swift; sourceTree = "<group>"; };
+		9520EA3D251B48F200420BD0 /* SimpleWidgetEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWidgetEntryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,11 +136,47 @@
 		9520EA1C251B415600420BD0 /* SImpleWidget */ = {
 			isa = PBXGroup;
 			children = (
-				9520EA1D251B415600420BD0 /* SImpleWidget.swift */,
 				9520EA1F251B415800420BD0 /* Assets.xcassets */,
 				9520EA21251B415800420BD0 /* Info.plist */,
+				9520EA2E251B42E500420BD0 /* Widget */,
+				9520EA2D251B42CF00420BD0 /* App */,
+				9520EA2C251B42C800420BD0 /* Models */,
+				9520EA2B251B42C000420BD0 /* Views */,
 			);
 			path = SImpleWidget;
+			sourceTree = "<group>";
+		};
+		9520EA2B251B42C000420BD0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9520EA39251B488000420BD0 /* PlaceholderView.swift */,
+				9520EA3D251B48F200420BD0 /* SimpleWidgetEntryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9520EA2C251B42C800420BD0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9520EA2D251B42CF00420BD0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9520EA2E251B42E500420BD0 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				9520EA1D251B415600420BD0 /* SImpleWidget.swift */,
+				9520EA2F251B441E00420BD0 /* SimpleWidgetEntry.swift */,
+				9520EA33251B446B00420BD0 /* SimpleWidgetTimeline.swift */,
+			);
+			path = Widget;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +288,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9520EA30251B441E00420BD0 /* SimpleWidgetEntry.swift in Sources */,
+				9520EA3E251B48F300420BD0 /* SimpleWidgetEntryView.swift in Sources */,
+				9520EA34251B446B00420BD0 /* SimpleWidgetTimeline.swift in Sources */,
+				9520EA3A251B488000420BD0 /* PlaceholderView.swift in Sources */,
 				9520EA1E251B415600420BD0 /* SImpleWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
